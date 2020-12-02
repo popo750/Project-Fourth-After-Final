@@ -402,7 +402,6 @@ a[data-lightbox]:hover img {
 }
 
 .btn,
-a,
 h1,
 h2,
 h3,
@@ -560,6 +559,22 @@ h1 {
 .bg-presentation {
     background-image: url(../img-webp-by-comp/image-presentation-1150w650h.webp);
 }
+
+.net-linking {
+    list-style: none;
+    padding: 1px;
+    
+}
+
+.collaborateur {
+    color: #FFFFD0; 
+}
+
+.collaborateur:hover,
+.collaborateur:visited
+ {
+    color: #FFFF9F;
+} 
 
 /* ajout perso : mode tv */
 @media (min-width: 1600px) {
